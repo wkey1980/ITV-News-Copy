@@ -1,84 +1,176 @@
-// Top Nav
 .header {
 
-    &__top-nav {
-        width: 100%;
-        height: 3.5rem;
-        padding: 0 3.125rem;
-        background-color: $top-nav-bg-colour;
-    }
-
-    &__logo {
-        margin-right: 1.5rem;
-    }
-
-    &__nav-list {
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        margin: 0;
-        padding: 0;
-
-        font-weight: $font-weight;
-
-        &:last-child {
-            margin-left: auto;
-        }
-    }
-
-    &__nav-link {
-        color: $top-nav-font-colour;
-        padding:0.5rem 1rem;
-
-        &:hover {
-            color: $top-nav-font-colour-hover;
-        }
-
-        & span {
-            color: $banner-ad-free;
-        }
+    &__container {
+        background-color: orange;
+        max-width: $max-width;
+        margin: 0 auto;
     }
 }
 
-// Main Nav
-.header {
 
-    &__main-nav {
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        width: 100%;
-        height: 3.5rem;
-        padding: 0 3.125rem;
-        background-color: $main-nav-bg-colour;
-    }
 
-    &__nav-list {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Global Menu Styles
+
+// .header {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: flex-start;
+//     width: 100%;
+
+//     &__container {
+
+//     }
+
+//     &__nav-list {
+//         max-width: 120rem;
+//         margin: 0 auto;
+//         display: flex;
+//         align-items: center;
+
+//     }
+// }
+// END Global Menu Styles
+
+
+
+
+
+// Header Top Nav
+// .header {
+
+//     &__top-nav {
+//         width: 100%;
+//         height: 3.5rem;
+//         padding: 0 3.125rem;
+//         background-color: $top-nav-bg-colour;
+
+//     }
+//     &__nav-list {
+//         display: flex;
+//         justify-content: start;
+//         align-items: center;
+//         margin: 0;
+//         padding: 0;
+//     }
+//     &__logo {
+//         margin-right: 1.5rem;
+//     }
+//     &__nav-item {
+
+//         &__nav-link {
+
+//         }
+//     }
+// }
+// END Header Top Nav
+
+
+
+
+// END Header Main Nav
+// .header {
+
+//     &__main-nav {
+//         width: 100%;
+//         height: 3.5rem;
+//         padding: 0 3.125rem;
+//         background-color: $main-nav-bg-colour;
+//     }
+//     &__nav-list {
+
+//     }
+//     &__nav-item {
+
+//         &__nav-link {
+
+//         }
+//     }
+// }
+// END Header Main Nav
+
+
+
+
+
+
+//     &__nav-list {
+
+
+//         font-weight: $font-weight;
+
+//         &:last-child {
+//             margin-left: auto;
+//         }
+//     }
+
+//     &__nav-link {
+//         color: $top-nav-font-colour;
+//         padding:0.5rem 1rem;
+
+//         &:hover {
+//             color: $top-nav-font-colour-hover;
+//         }
+
+//         & span {
+//             color: $banner-ad-free;
+//         }
+//     }
+// }
+
+// // Main Nav
+// .header {
+
+//     &__main-nav {
+//         display: flex;
+//         justify-content: start;
+//         align-items: center;
+//         width: 100%;
+//         height: 3.5rem;
+//         padding: 0 3.125rem;
         
-    }
+//     }
 
-    &__nav-link {
-        color: $main-nav-font-colour;
-        padding: 0 1.8rem;
+//     &__nav-list {
+        
+//     }
 
-        &:hover {
-            color: $main-nav-font-colour-hover;
-            background-color: red;
-        }
+//     &__nav-link {
+//         color: $main-nav-font-colour;
+//         padding: 0 1.8rem;
+
+//         &:hover {
+//             color: $main-nav-font-colour-hover;
+//             background-color: red;
+//         }
 
 
-    }
+//     }
 
-    &__nav-link:first-child {
-        padding-left: 0;
+//     &__nav-link:first-child {
+//         padding-left: 0;
 
-    }
+//     }
 
-    &__nav-item {
+//     &__nav-item {
 
-        & i {
-            padding-right: 1rem;
-            color: green;
-        }
-    }
-}
+//         & i {
+//             padding-right: 1rem;
+//             color: green;
+//         }
+//     }
+// }
