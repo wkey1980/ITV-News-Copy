@@ -1,0 +1,52 @@
+// Top Nav
+.header {
+
+    &__top-nav {
+        width: 100%;
+        height: 3.5rem;
+        padding: 0 3.125rem;
+        background-color: $top-nav-bg-colour;
+    }
+
+    &__logo {
+        margin-right: 1.5rem;
+    }
+
+    &__nav-list {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+
+        font-weight: $font-weight;
+
+        &:last-child {
+            margin-left: auto;
+        }
+    }
+
+    &__nav-link {
+        color: $top-nav-font-colour;
+        padding:0.5rem 1rem;
+
+        &:hover {
+            color: $top-nav-font-colour-hover;
+        }
+
+        & span {
+            color: $banner-ad-free;
+        }
+    }
+}
+
+// Main Nav
+.header {
+
+    &__main-nav {
+        width: 100%;
+        height: 3.5rem;
+        padding: 0 3.125rem;
+        background-color: $main-nav-bg-colour;
+    }
+}
