@@ -117,47 +117,46 @@
 
 // Main Container
 .main {
-
+    
     &__container {
         display: flex;
-        flex-direction: row;
-    //    display: grid;
-        // grid-template-rows: repeat();
-        // grid-template-columns: min-content, 1fr, 1fr;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
     }
 
     &__article {
         display: flex;
+
+
+        background-color: cyan;
+        margin: 1rem;
+        padding: 1rem;
+        max-width: 600px;
     }
-
-    // background-color: red;
-    // width: 100%;
-    // height: 100%;
-
-    // &__container {
-    //     display: flex;
-    // }
 
     &__img {
-        // ! Method to display using CSS
-        // background-image: url("/images/news-video.png");
-        // background-repeat: no-repeat;
-        // background-position: center center;
-        // background-size: cover;
-        // object-fit: cover;
-        // width: 100vw;
-        // height: 100vh;
-
-        // background-color: red;
+        
     }
 
-    // & img {
-    //     width: ;
-    //     height: 100%;
-    // }
+    &__heading {
 
-    &__test {
-        display: flex;
-        flex-direction: column;
     }
+
+    &__paragraph {
+
+    }
+
+    &__link-item {
+
+    }
+}
+
+
+// temp
+
+.box-2 {
+    display: flex;
+    flex-direction: column;
+    min-width: fit-content;
 }
