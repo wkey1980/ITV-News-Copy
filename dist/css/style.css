@@ -169,6 +169,14 @@ a:hover {
   border-radius: 20px;
 }
 
+.main__first-section {
+  background-color: orange;
+}
+
+.main__second-section {
+  background-color: teal;
+}
+
 .article--feature {
   display: -webkit-box;
   display: -ms-flexbox;
