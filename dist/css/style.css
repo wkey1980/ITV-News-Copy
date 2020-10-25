@@ -169,15 +169,7 @@ a:hover {
   border-radius: 20px;
 }
 
-.main__first-section {
-  background-color: orange;
-}
-
-.main__second-section {
-  background-color: teal;
-}
-
-.article--feature {
+.main__feature {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -185,21 +177,24 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+.main__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0.5rem;
-}
-
-.article__content--feature {
   padding: 0.5rem;
+  background-color: teal;
 }
 
-.article__link-item--feature {
-  padding: 1rem;
+.main__standard {
+  background-color: tan;
 }
 
 h2 {
