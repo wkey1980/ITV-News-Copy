@@ -14,7 +14,7 @@
 <body>
     <header class="header">
         <div class="header__container">
-            <!-- <nav class="header__nav">
+            <nav class="header__nav">
                 <div class="header__top-nav">
                     <ul class="header__nav-list">
                         <a class="header__logo" href="#"><img src="/images/logo.png" alt="itv logo"></a>
@@ -27,24 +27,40 @@
                                 </span>now</a></li>
                     </ul>
                 </div>
-            </nav> -->
+            </nav>
             <nav class="header__nav">
                 <div class="header__main-nav">
                     <ul class="header__nav-list">
-                        <!-- <li class="header__nav-item"><a class="header__nav-link header__padding-left" href="#">News</a>
-                        </li> -->
-                        <!-- <li class="header__nav-item"><a class="header__nav-link" href="#">Top Stories</a></li> -->
-                        <li class="header__nav-item"><a class="header__nav-link dropdown" href="#">Your Area<i
-                                    class="fas fa-chevron-down"></i></a></li>
-                        <li class="header__nav-item"><a class="header__nav-link dropdown" href="#">Topics<i
-                                    class="fas fa-chevron-down"></i></a></li>
-                        <!-- <li class="header__nav-item"><a class="header__nav-link" href="#">Weather</a></li> -->
+                        <li class="header__nav-item"><a class="header__nav-link header__padding-left" href="#">News</a>
+                        </li>
+                        <li class="header__nav-item"><a class="header__nav-link" href="#">Top Stories</a></li>
+                        <li class="header__nav-item header__dropdown">
+                            <input class="header__input" type="checkbox">
+                            <a class="header__nav-link" href="#" data-toggle="dropdown">Your Area<i
+                                    class="fas fa-chevron-down"></i>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">link 1</a></li>
+                                    <li><a href="#">link 1</a></li>
+                                    <li><a href="#">link 1</a></li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="header__nav-item header__dropdown">
+                            <input type="checkbox">
+                            <a class="header__nav-link" href="#" data-toggle="dropdown">Topics<i
+                                    class="fas fa-chevron-down"></i>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"></a></li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="header__nav-item"><a class="header__nav-link" href="#">Weather</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
     </header>
-    <!-- <main class="main">
+    <main class="main">
         <div class="main__container">
 
             <article class="article">
@@ -76,7 +92,7 @@
                 </div>
                 <div class="article__content">
                     <h2 class="article__header">
-                        <a class="" href="#">Wales enters two-week fire-break lockdown</a>
+                        <a class="" href="#">Sturgeon reveals 5-Tier Covid alert system for Scotland</a>
                     </h2>
                 </div>
             </article>
@@ -87,7 +103,8 @@
                 </div>
                 <div class="article__content">
                     <h2 class="article__header">
-                        <a class="" href="#">Wales enters two-week fire-break lockdown</a>
+                        <a class="" href="#">Sunak barred from pub in his constituency over vote against free school
+                            meals</a>
                     </h2>
                 </div>
             </article>
@@ -98,7 +115,7 @@
                 </div>
                 <div class="article__content">
                     <h2 class="article__header">
-                        <a class="" href="#">Wales enters two-week fire-break lockdown</a>
+                        <a class="" href="#">Test and Trace: A timeline of the government's Covid tracking system</a>
                     </h2>
             </article>
 
@@ -108,7 +125,8 @@
                 </div>
                 <div class="article__content">
                     <h2 class="article__header">
-                        <a class="" href="#">Wales enters two-week fire-break lockdown</a>
+                        <a class="" href="#">Exclusive: Fifth of charities unlikely to deliver services this
+                            Christmas</a>
                     </h2>
                 </div>
             </article>
@@ -119,7 +137,8 @@
                 </div>
                 <div class="article__content">
                     <h2 class="article__header">
-                        <a class="" href="#">Wales enters two-week fire-break lockdown</a>
+                        <a class="" href="#">Nigeria’s president blames ‘hooliganism’ for deaths of 51 civilians in
+                            unrest</a>
                     </h2>
                 </div>
             </article>
@@ -130,12 +149,14 @@
                 </div>
                 <div class="article__content">
                     <h2 class="article__header">
-                        <a class="" href="#">Wales enters two-week fire-break lockdown</a>
+                        <a class="" href="#">McDonald's pledges one million free meals after Marcus Rashford
+                            campaign</a>
                     </h2>
                 </div>
             </article>
         </div>
-    </main> -->
+        <button class="main__button">Load More</button>
+    </main>
 
     <footer class="footer">
 
