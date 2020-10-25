@@ -1,0 +1,89 @@
+// Main container
+// .main__container {
+//     display: grid;
+//     grid-template-rows: 1fr;
+//     grid-template-columns: repeat(6, 1fr);
+// }
+
+// .article {
+//     display: flex;
+
+//     &__content {
+//         display: flex;
+//         flex-direction: column;
+//     }
+// }
+
+.main {
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1.5rem;
+
+        border: 1px solid red;
+    }
+
+    &__button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__button {
+        width: 150px;
+        height: 60px;
+        background-color: green;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        text-transform: uppercase;
+        border-radius: 20px;
+    }
+}
+
+// .article {
+
+// }
+
+.article {
+
+    &--feature {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        margin: 0.5rem;
+    }
+
+    &__content--feature {
+        padding: 0.5rem;
+    }
+
+    &__link-item--feature {
+        padding: 1rem;
+    }
+}
+
+
+
+
+
+// temp - Need to assign classes and set up the correct h2 font size.
+h2 {
+    font-size: 12px;
+}
+
+
+// Temp - Dropdown Menus
+
+// .dropdown {
+//     // position: relative;
+// }
+
+// .dropdown-menu {
+
+// }

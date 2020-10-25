@@ -1,0 +1,13 @@
+.footer {
+    width: 100%;
+    height: 23.8125rem;
+    background-color: black;
+
+    &__container {
+        max-width: 68.75rem;
+        margin: 0 auto;
+        height: 100%;
+
+        color: white;
+    }
+}
