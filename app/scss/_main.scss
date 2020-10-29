@@ -58,14 +58,19 @@
         background-color: teal;
     }
 
-    &__standard {
-        background-color: tan;
-        
-        // display: flex;
-        // flex-direction: row;
-        // justify-content: center;
-        // align-items: center;
-    }
+    // &__standard {
+
+    // }
+}
+
+section {
+
+    background-color: red;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
