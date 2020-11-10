@@ -4,219 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a00eb704a4.js" crossorigin="anonymous"></script>
 
+    <!-- Site CSS -->
     <link rel="stylesheet" href="/dist/style.css">
+
     <title>Document</title>
 </head>
 
 <body>
     <header class="header">
-        <div class="header__container">
-            <nav class="header__nav">
-                <div class="header__top-nav">
-                    <ul class="header__nav-list">
-                        <a class="header__logo" href="#"><img src="/images/logo.png" alt="itv logo"></a>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Watch Live</a></li>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Full Series</a></li>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Shows</a></li>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Categories</a></li>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">News</a></li>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Watch <span>ad-free
-                                </span>now</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <nav class="header__nav">
-                <div class="header__main-nav">
-                    <ul class="header__nav-list">
-                        <li class="header__nav-item"><a class="header__nav-link header__padding-left" href="#">News</a>
-                        </li>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Top Stories</a></li>
-                        <li class="header__nav-item header__dropdown">
-                            <input class="header__input" type="checkbox">
-                            <a class="header__nav-link" href="#" data-toggle="dropdown">Your Area<i
-                                    class="fas fa-chevron-down"></i>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">link 1</a></li>
-                                    <li><a href="#">link 1</a></li>
-                                    <li><a href="#">link 1</a></li>
-                                </ul>
-                            </a>
-                        </li>
-                        <li class="header__nav-item header__dropdown">
-                            <input type="checkbox">
-                            <a class="header__nav-link" href="#" data-toggle="dropdown">Topics<i
-                                    class="fas fa-chevron-down"></i>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#"></a></li>
-                                </ul>
-                            </a>
-                        </li>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Weather</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+        <nav class="nav">
+            <ul class="nav__top-nav">
+                <a class="nav__logo" href="#"><img src="/images/logo.png" alt="logo"></a>
+                <li><a href="#">Watch Live</a></li>
+                <li><a href="#">Full Series</a></li>
+                <li><a href="#">Shows</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Mews</a></li>
+                <li><a href="#">Watch <span>add-free </span>now</a></li>
+            </ul>
+
+
+            <ul class="nav__main-nav">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, soluta.</p>
+            </ul>
+        </nav>
     </header>
 
 
-    <div class="main">
-        <div class="main__container">
-            <!--TODO Need to give section a class name -->
-            <section class="main__feature">
-                <div class="main__card">
-                    <div class="card__header .card__header--feature">
-                        <div class="card__img-container">
-                            <img class="card__img" src="/images/news-video.png" alt="news video image">
-                        </div>
-                    </div>
-                    <div class="card__body card__body--feature">
-                        <ul class="card__nav-list">
-                            <li class="card-nav-item">
-                                <h1 class="card__heading">Wales enters two-week fire-break lockdown</h1>
-                            </li>
-                            <li>
-                                <p class="card__description">
-                                    Wales has entered a 17-day fire-break lockdown in an attempt to control the spread
-                                    of coronavirus. Non-essential shops have closed and people will be required to stay
-                                    at home, nless their journey is deemed essential.
-                                </p>
-                            </li>
-                            <li class="card-nav-item">
-                                <a class="card-nav-link" href="#">What you can and can’t buy in shops during Wales’
-                                    fire-break lockdown</a>
-                            </li>
-                            <li class="card-nav-item">
-                                <a class="card-nav-link" href="#">The full list of places required to close as part of
-                                    Wales fire-break</a>
-                            </li>
-                            <li class="card-nav-item">
-                                <a class="card-nav-link" href="#">Wales' 'circuit-breaker' coronavirus lockdown: Your
-                                    questions answered</a>
-                            </li>
-                        </ul>
-                    </div>
+
+
+
+    <main class="main">
+        <div class="container">
+
+            <!-- Lead News Article -->
+            <article class="article">
+                <div class="article__img-container">
+                    <img class="article__img" src="/images/main.png" alt="main image">
                 </div>
-            </section>
+                <h1 class="article__heading">FA Chair Greg Clarke quits following controversial comments</h1>
+                <img class="article__img"  src="/images/clock.png" alt="clock">
+                <p class="article__time">7 minutes ago</p>
+                <p class="article__description">Greg Clarke has stepped down from his role as chair of the Football Association after being heavily criticised for controversial comments made while giving evidence to a parliamentary select committee.</p>
+                <a class="article__link" href="#">FA Chairman Clarke forced to apologise over remarks made to MPs</a>
+                <a class="article__link" href="#">English football clubs sign up to new code aimed at promoting diversity</a>
+            </article>
 
-            <!--TODO Need to give section a class name -->
-            <section>
-                <section class="main__standard">
-                    <div class="card">
-                        <div class="card__header">
-                            <div class="card__img-container">
-                                <img class="card__img" src="/images/1.png" alt="news video image">
-                            </div>
-                        </div>
-                        <div class="card__body">
-                            <ul class="card__nav-list">
-                                <li class="card-nav-item">
-                                    <h2><a class="card-nav-link" href="#">Sturgeon reveals 5-Tier Covid alert system for Scotland</a></h2>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-    
-                    <div class="card">
-                        <div class="card__header">
-                            <div class="card__img-container">
-                                <img class="card__img" src="/images/2.png" alt="news video image">
-                            </div>
-                        </div>
-                        <div class="card__body">
-                            <ul class="card__nav-list">
-                                <li class="card-nav-item">
-                                    <h2><a class="card-nav-link" href="#">Sunak barred from pub in his constituency over vote against free school meals</a></h2>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-    
-                    <div class="card">
-                        <div class="card__header">
-                            <div class="card__img-container">
-                                <img class="card__img" src="/images/3.png" alt="news video image">
-                            </div>
-                        </div>
-                        <div class="card__body">
-                            <ul class="card__nav-list">
-                                <li class="card-nav-item">
-                                    <h2><a class="card-nav-link" href="#">Test and Trace: A timeline of the government's Covid tracking system</a></h2>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-    
-                    <div class="card">
-                        <div class="card__header">
-                            <div class="card__img-container">
-                                <img class="card__img" src="/images/4.png" alt="news video image">
-                            </div>
-                        </div>
-                        <div class="card__body">
-                            <ul class="card__nav-list">
-                                <li class="card-nav-item">
-                                    <h2><a class="card-nav-link" href="#">Exclusive: Fifth of charities unlikely to deliver services this Christmas</a></h2>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-    
-                    <div class="card">
-                        <div class="card__header">
-                            <div class="card__img-container">
-                                <img class="card__img" src="/images/5.png" alt="news video image">
-                            </div>
-                        </div>
-                        <div class="card__body">
-                            <ul class="card__nav-list">
-                                <li class="card-nav-item">
-                                    <h2><a class="card-nav-link" href="#">Nigeria’s president blames ‘hooliganism’ for deaths of 51 civilians in unrest</a></h2>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-    
-                    <div class="card">
-                        <div class="card__header">
-                            <div class="card__img-container">
-                                <img class="card__img" src="/images/6.png" alt="news video image">
-                            </div>
-                        </div>
-                        <div class="card__body">
-                            <ul class="card__nav-list">
-                                <li class="card-nav-item">
-                                    <h2><a class="card-nav-link" href="#">McDonald's pledges one million free meals after Marcus Rashford campaign</a></h2>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-            </section>
+        </div>
+        <!-- Sub News Article -->
+    </main>
+    <footer class="footer">
 
+    </footer>
 
-
-
-
-
-
-        <section class="main__button-container">
-            <button class="main__button">Load More</button>
-        </section>
-        </main>
-
-        <footer class="footer">
-            <div class="footer__container">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sit a temporibus iste fuga tempore harum
-                    odit dolorem tenetur inventore itaque magnam, veritatis nulla officiis voluptate dolorum! Inventore,
-                    dolorem eos.</p>
-            </div>
-
-        </footer>
-
-        <script src="/app/js/app.js"></script>
+    <script src="/app/js/app.js"></script>
 </body>
 
 </html>

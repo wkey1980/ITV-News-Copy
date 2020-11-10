@@ -1,7 +1,6 @@
-// Done - Completed Styles
-// * {
-//     outline: 1px solid red;
-// }
+* {
+    outline: 1px solid red;
+}
 
 html {
     font-size: 100%;
@@ -14,28 +13,9 @@ html {
     box-sizing: inherit;
 }
 
-html,
-body {
-    width: 100%;
-    height: 100%;
-}
-
 body {
     margin: 0;
     padding: 0;
-    font-family: $font-stack;
-    font-size: $font-size;
-    // font-weight: ;
-    // color: ;
-    line-height: $line-height;
-
-    background-color: #ffffff;
-}
-
-li,
-li a {
-    text-decoration: none;
-    list-style: none;
 }
 
 a,
@@ -43,7 +23,3 @@ a:visited,
 a:hover {
     text-decoration: none;
 }
-
-// Done - END Completed Styles
-
-
