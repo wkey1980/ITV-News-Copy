@@ -11,64 +11,47 @@
     <!-- Site CSS -->
     <link rel="stylesheet" href="/dist/style.css">
 
-    <title>Document</title>
+    <title>ITV News</title>
 </head>
 
 <body>
+
     <header class="header">
+        <div class="container">
 
+        </div>
 
-        <!-- Navigation -->
-        <nav class="nav">
-            <ul class="nav__top-nav">
-                <a class="nav__logo" href="#"><img src="/images/logo.png" alt="logo"></a>
-                <li><a href="#">Watch Live</a></li>
-                <li><a href="#">Full Series</a></li>
-                <li><a href="#">Shows</a></li>
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Watch <span>add-free </span>now</a></li>
-            </ul>
+            <!-- Block Element -->
+            <nav class="top-nav">
+                <a class="top-nav__logo" href="#"><img src="/images/logo.png" alt="Logo" title="Logo"></a>
+                <ul class="top-nav__nav-list">
+                    <li class="top-nav__nav-item"><a class="top-nav__nav-link" href="#">Watch Live</a></li>
+                    <li class="top-nav__nav-item"><a class="top-nav__nav-link" href="#">Full Series</a></li>
+                    <li class="top-nav__nav-item"><a class="top-nav__nav-link" href="#">Shows</a></li>
+                    <li class="top-nav__nav-item"><a class="top-nav__nav-link" href="#">Categories</a></li>
+                    <li class="top-nav__nav-item"><a class="top-nav__nav-link" href="#">News</a></li>
+                </ul>
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="#">Watch <span class="add-free">add-free </span> Live</a></li>
+                </ul>
+            </nav>
 
-            <ul class="nav__main-nav">
-                <li><a href="#">NEWS</a></li>
-                <li><a href="#">Top Stories</a></li>
-                <li><a href="#">Your Area</a></li>
-                <li><a href="#">Topics</a></li>
-                <li><a href="#">Weather</a></li>
-            </ul>
-        </nav>
+            <!-- Block Element -->
+            <div class="">
+                <nav class="main-nav">
+                    <a class="main-nav__news" href="#">News</a>
+                    <ul class="main-nav__nav-list">
+                        <li class="main-nav__nav-item"><a class="main-nav__nav-link" href="#">Top Stories</a></li>
+                        <li class="main-nav__nav-item"><a class="main-nav__nav-link" href="#">Your Area</a></li>
+                        <li class="main-nav__nav-item"><a class="main-nav__nav-link" href="#">Topics</a></li>
+                        <li class="main-nav__nav-item"><a class="main-nav__nav-link" href="#">Weather</a></li>
+                    </ul>
+                </nav>
+            </div>
+
 
     </header>
 
-
-
-
-
-    <main class="main">
-        <div class="container">
-
-            <!-- Lead News Article -->
-            <article class="article">
-                <div class="article__img-container">
-                    <img class="article__img" src="/images/main.png" alt="main image">
-                </div>
-                <h1 class="article__heading">FA Chair Greg Clarke quits following controversial comments</h1>
-                <img class="article__img"  src="/images/clock.png" alt="clock">
-                <p class="article__time">7 minutes ago</p>
-                <p class="article__description">Greg Clarke has stepped down from his role as chair of the Football Association after being heavily criticised for controversial comments made while giving evidence to a parliamentary select committee.</p>
-                <a class="article__link" href="#">FA Chairman Clarke forced to apologise over remarks made to MPs</a>
-                <a class="article__link" href="#">English football clubs sign up to new code aimed at promoting diversity</a>
-            </article>
-
-        </div>
-        <!-- Sub News Article -->
-    </main>
-    <footer class="footer">
-
-    </footer>
-
     <script src="/app/js/app.js"></script>
 </body>
-
 </html>

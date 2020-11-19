@@ -1,6 +1,6 @@
-// * {
-//     outline: 1px solid red;
-// }
+* {
+    outline: 1px solid red;
+}
 
 html {
     font-size: 100%;
@@ -11,19 +11,8 @@ html {
 *::before,
 *::after {
     box-sizing: inherit;
-
     margin: 0;
     padding: 0;
-}
-
-// body {
-//     margin: 0;
-//     padding: 0;
-// }
-
-li,
-li a {
-    list-style: none;
 }
 
 a,
