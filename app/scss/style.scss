@@ -223,6 +223,7 @@ a {
 
 .time-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: start;
     align-items: center;
 }
