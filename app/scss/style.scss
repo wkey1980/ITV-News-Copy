@@ -1,5 +1,243 @@
 // @import "variables";
 // @import "reset";
-@import "globals";
-@import "header";
-@import "main";
+// @import "globals";
+// @import "header";
+// @import "main";
+
+
+$top-nav: #151724;
+$main-nav: #0b6472;
+
+$add-free: #19bec8;
+$add-free-hover: #19bec8;
+
+
+// GLOBAL STYLES
+
+// * {
+//     outline: 1px solid red;
+// }
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:visited,
+a:hover {
+    text-decoration: none;
+}
+
+li,
+li a {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+// .content {
+//     width: 90vw;
+//     height: 90vh;
+//     margin: 0 auto;
+//     display: ;
+//     background-color: lightskyblue;
+
+//     outline: 1px solid red;
+
+// }
+
+// HEADER STYLES
+
+.navigation {
+    width: 100%;
+}
+
+// Nav container
+// .nav-container{
+//     max-width: 90%;
+//     margin: 0 auto;
+// }
+
+a {
+    color: white;
+
+    &:hover {
+        color: $add-free-hover;
+    }
+}
+
+// .box used to create an even space between "logo" & "news" and rest of menu
+.box {
+    width: 65px;
+    height: 56px;
+    line-height: 60px;
+    text-align: center;
+
+    margin-right: 2rem;
+}
+
+.top-nav,
+.main-nav {
+    width: 100%;
+    height: 60px;
+
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.top-nav__nav-item,
+.main-nav__nav-item {
+    // outline: 1px solid red;
+
+    padding: 20px .9rem;
+}
+
+// Top Nav
+.top-nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    background-color: $top-nav;
+
+    &__nav-list {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+}
+
+// Pushes "Watch add-free Live" menu item to the rifht of the screen.
+.nav-list {
+    margin-left: auto;
+}
+
+.add-free {
+    color: $add-free;
+    font-weight: bold;
+}
+
+
+// Main Nav
+.main-nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    background-color: $main-nav;
+
+    &__nav-list {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+
+        & a {
+            padding: 20px .9rem;
+        }
+
+        & a:hover {
+            background: #149ca3;
+            color: white;
+
+            // padding: 21px 0;
+            // padding: 20px .9rem;
+        }
+    }
+
+    &__news {
+        // width: 4rem;
+        // margin-right: 6rem;
+
+        font-size: 1.4rem;
+        font-weight: bold;
+
+        text-transform: uppercase;
+    }
+
+    // &__nav-item a:hover {
+    //     background-color: yellow;
+    // }
+
+    &__nav-link {
+        padding-right: 1.1rem;
+
+        & i {
+            margin-left: .2rem;
+        }
+    }
+}
+
+.news-container {
+
+    & a {
+        padding: 20px 0;
+    }
+
+    & a:hover {
+        color: white;
+    }
+}
+
+
+
+.news-feature {
+    width: 95%;
+
+    margin: auto;
+    margin-top: 2rem;
+
+    // background-color: yellow;
+    // outline: 1px solid red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: column;
+
+    padding: .8rem;
+
+    & a {
+        color: blue;
+        text-decoration: underline;
+        list-style: circle;
+    }
+}
+.clock {
+    display: inline-block;
+    width: 21px;
+    height: 26px;
+}
+
+.time-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.article {
+    width: 385px;
+    margin: 0 auto;
+
+    & img {
+        max-width: 385px;
+    }
+}
+
+
+
+.article-content {
+    display: flex;
+}
